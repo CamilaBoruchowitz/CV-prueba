@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Cormorant', serif;
+    font-size: 1.5em;
+    text-align: justify;
+    background-color: #956eab;
+    color: #094636;
+}
+header h1{
+    border: #bcbadc 5px solid;
+    text-align: center;
+    color:black;
+}
+article{
+    margin: 10px 5px;
+    padding: 20px;
+}
+asaid{
+    float: left;
+    margin: 10px 30px 10px 0;
+    padding: 10px 20px;
+}
+p{
+    text-align: center;
+}
+footer{
+    margin: 10px;
+    padding: 10px;
+    float: right;
+}
+details{
+    margin: 10px 30px;
+    padding: 10px;
+}
+summary{
+    border: #bcbadc solid 5px;
+    font-weight: bold;
+}
+ul.uno{ /* DESPUES SACAR LA IMAGEN PERO ANTES VER COMO SE PONE MÁS OSCURA LA LETRA QUE NO PUEDO*/
+    background: url("/images/ul/uno.jpg"); 
+    opacity: 0.4;
+    font-family: sans-serif solid 5px;
+}
+/*  NO ME GUSTA COMO QUEDA CON FONDO PORQUE IMAGEN MAL,ul.dos{
+    background: url("/images/ul/dos.jpg");
+    opacity: 0.4;;
+}
+ul.tres{
+    background: url("/images/ul/tres.jpg");
+    opacity: 0.4;
+}
+ul.cuatro{
+    background: url;
+    opacity: 0.4;
+}*/
